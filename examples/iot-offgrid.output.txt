@@ -1,0 +1,50 @@
+================================================================
+SOLAR SIZING — Node IoT off-grid
+Location: Denpasar, Indonesia (-8.67, 115.21)
+================================================================
+
+LOAD PROFILE
+Daily energy              : 325 Wh
+Peak load                 : 25 W (hour 18:00)
+Night load (18:00-06:00)  : 198 Wh
+
+SOLAR RESOURCE
+Peak sun hours (annual avg): 5.51 h/day
+Peak sun hours (worst month): 4.94 h/day (Jun)
+Performance ratio         : 68.8% (cell 59.3 °C)
+Losses                    : temperature 86.3%, soiling 95%, wiring 98%, inverter 95%, misc 98%, battery 92%
+
+PV ARRAY
+Required array            : 85.7 W
+Panels                    : 1 × 100 W = 100 W
+Expected daily yield      : 379.1 Wh (116.7% of load)
+
+BATTERY
+Chemistry                 : LiFePO4 (lithium iron phosphate)
+Autonomy target           : 2 day(s)
+Usable energy             : 650 Wh
+Nominal capacity          : 805.3 Wh (67.1 Ah @ 12 V)
+Depth of discharge        : 80%
+
+CHARGE CONTROLLER
+Type                      : PWM — Small array with Vmp close to battery voltage: PWM is acceptable.
+Required current          : 7.64 A (array Isc 6.11 A × 1.25)
+Recommended rating        : ≥ 10 A, max input 27 V
+
+INVERTER
+Continuous                : 31 W (peak × 1.25)
+Surge                     : 75 W
+
+CABLE (array → controller)
+Recommended size          : 6 mm² — drop 2.9% over 10 m @ 6.11 A
+
+ESTIMATED COST (example prices — NOT live market prices)
+  Panel surya — Mono 100 Wp (12 V) × 1: Rp650.000
+  Baterai — LiFePO4 12.8 V 100 Ah × 1: Rp3.500.000
+  Charge controller — PWM 20 A (12/24 V): Rp250.000
+  Inverter — Pure sine 500 W (surge 1000 W): Rp900.000
+Balance of system (15%)   : Rp795.000
+TOTAL (estimate)          : Rp6.095.000
+Cost per Wp               : Rp60.950/Wp
+
+----------------------------------------------------------------

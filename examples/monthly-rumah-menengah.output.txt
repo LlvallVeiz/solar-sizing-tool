@@ -1,0 +1,23 @@
+================================================================
+MONTHLY VARIATION — Rumah tangga menengah @ Jakarta
+================================================================
+Daily load: 7.58 kWh · PR 68.8% · panel 550 W
+
+Month   PSH (h)   Array needed   Panels (550 W)
+----------------------------------------------------------------
+Jan     4.37      2.52 kW        5
+Feb     4.29      2.57 kW        5
+Mar     4.65      2.37 kW        5
+Apr     4.75      2.32 kW        5
+May     4.41      2.5 kW         5
+Jun     4.22      2.61 kW        5
+Jul     4.59      2.4 kW         5
+Aug     5.01      2.2 kW         4
+Sep     5.29      2.08 kW        4
+Oct     5.11      2.16 kW        4
+Nov     4.58      2.4 kW         5
+Dec     4.41      2.5 kW         5
+----------------------------------------------------------------
+Worst month: Jun (4.22 h/day) — needs 2.61 kW (5 panels).
+Best month : Sep (5.29 h/day) — needs 2.08 kW (4 panels).
+Designing for the worst month instead of the annual mean needs 0 extra panel(s).

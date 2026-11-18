@@ -1,0 +1,11 @@
+================================================================
+OPTIMAL TILT — Jakarta, Indonesia (lat -6.21°)
+================================================================
+
+Annual fixed tilt : 10° (face North)
+Summer tilt       : 0°
+Winter tilt       : 21.2°
+Est. gain vs flat : 2.2% (rough rule of thumb)
+
+Within ~15° of the equator the gain is small; a 10–15° tilt is
+still recommended so rain washes dust off the panels.

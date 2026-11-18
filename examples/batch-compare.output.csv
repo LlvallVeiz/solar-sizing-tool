@@ -1,0 +1,4 @@
+profile,location,daily_wh,peak_w,psh_annual,psh_worst_month,performance_ratio,required_wp,panel_count,panel_w,installed_wp,daily_yield_wh,battery_chemistry,autonomy_days,battery_kwh,battery_ah,system_voltage_v,controller_type,controller_a,inverter_continuous_w,inverter_surge_w,cable_mm2,cost_idr
+Rumah kecil,Jakarta,2590,320,4.64,4.22,0.6882,811.1,2,550,1100,3512.6,lifepo4,2,6.417,267.4,24,MPPT,35,400,960,16,33580000
+Warung,Jakarta,5950,420,4.64,4.22,0.6882,1863.3,4,550,2200,7025.1,lifepo4,2,14.742,614.3,24,MPPT,70,525,1260,35,70265000
+Kantor kecil,Jakarta,13530,1400,4.64,4.22,0.6882,4237.1,8,550,4400,14050.3,lifepo4,2,33.523,1396.8,24,MPPT,70,1750,4200,35,150650000

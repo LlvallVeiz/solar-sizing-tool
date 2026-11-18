@@ -1,0 +1,14 @@
+================================================================
+SENSITIVITY — Rumah tangga kecil @ Jakarta
+================================================================
+Base: 2.59 kWh/day, PSH 4.64 h, PR 68.8%
+Base size: 811.1 W (2 × 550 W), battery 6.417 kWh (267.4 Ah).
+
+Scenario                              Array       Panels   Battery
+----------------------------------------------------------------
+PSH −20%                              1.01 kW     2        6.417 kWh (267.4 Ah)
+PSH +20%                              675.9 W     2        6.417 kWh (267.4 Ah)
+Load −20%                             648.9 W     2        5.134 kWh (213.9 Ah)
+Load +20%                             973.3 W     2        7.701 kWh (320.9 Ah)
+Worst case (PSH −20%, load +20%)      1.22 kW     3        7.701 kWh (320.9 Ah)
+Best case (PSH +20%, load −20%)       540.7 W     1        5.134 kWh (213.9 Ah)

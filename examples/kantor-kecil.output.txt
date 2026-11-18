@@ -1,0 +1,50 @@
+================================================================
+SOLAR SIZING — Kantor kecil
+Location: Surabaya, Indonesia (-7.25, 112.74)
+================================================================
+
+LOAD PROFILE
+Daily energy              : 13.53 kWh
+Peak load                 : 1.4 kW (hour 10:00)
+Night load (18:00-06:00)  : 970 Wh
+
+SOLAR RESOURCE
+Peak sun hours (annual avg): 5.11 h/day
+Peak sun hours (worst month): 4.64 h/day (Jun)
+Performance ratio         : 68.8% (cell 59.3 °C)
+Losses                    : temperature 86.3%, soiling 95%, wiring 98%, inverter 95%, misc 98%, battery 92%
+
+PV ARRAY
+Required array            : 3.85 kW
+Panels                    : 7 × 550 W = 3.85 kW
+Expected daily yield      : 13.53 kWh (100% of load)
+
+BATTERY
+Chemistry                 : LiFePO4 (lithium iron phosphate)
+Autonomy target           : 2 day(s)
+Usable energy             : 27.06 kWh
+Nominal capacity          : 33.52 kWh (1396.8 Ah @ 24 V)
+Depth of discharge        : 80%
+
+CHARGE CONTROLLER
+Type                      : MPPT — Array Vmp is well above battery voltage (or array > 200 W): MPPT harvests the extra voltage.
+Required current          : 70 A (array Isc 56 A × 1.25)
+Recommended rating        : ≥ 70 A, max input 124 V
+
+INVERTER
+Continuous                : 1.75 kW (peak × 1.25)
+Surge                     : 4.2 kW
+
+CABLE (array → controller)
+Recommended size          : 35 mm² — drop 2.28% over 10 m @ 56 A
+
+ESTIMATED COST (example prices — NOT live market prices)
+  Panel surya — Mono 550 Wp × 7: Rp19.250.000
+  Baterai — LiFePO4 25.6 V 100 Ah × 14: Rp98.000.000
+  Charge controller — MPPT 100 A (48 V, 250 V max): Rp6.500.000
+  Inverter — Pure sine 3000 W (surge 6000 W): Rp4.500.000
+Balance of system (15%)   : Rp19.237.500
+TOTAL (estimate)          : Rp147.487.500
+Cost per Wp               : Rp38.308/Wp
+
+----------------------------------------------------------------

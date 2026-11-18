@@ -1,0 +1,14 @@
+================================================================
+COMPARISON
+================================================================
+
+System        Daily         PSH           Array         Panels        Battery       Cost (est.)   
+----------------------------------------------------------------
+Rumah kecil   2.59 kWh      4.64 h        811.1 W       2×550W        6.417 kWh     Rp33.580.000
+Warung        5.95 kWh      4.64 h        1.86 kW       4×550W        14.742 kWh    Rp70.265.000
+Kantor kecil  13.53 kWh     4.64 h        4.24 kW       8×550W        33.523 kWh    Rp150.650.000
+
+Cheapest: Rumah kecil — smallest array: Rumah kecil
+Required array spread: 811.1 W – 4.24 kW (ratio 5.22×)
+
+Note: costs are example prices, NOT live market prices (see catalog.js).

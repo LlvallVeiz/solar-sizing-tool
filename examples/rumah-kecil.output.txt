@@ -1,0 +1,50 @@
+================================================================
+SOLAR SIZING — Rumah tangga kecil
+Location: Jakarta, Indonesia (-6.21, 106.85)
+================================================================
+
+LOAD PROFILE
+Daily energy              : 2.59 kWh
+Peak load                 : 320 W (hour 18:00)
+Night load (18:00-06:00)  : 1.35 kWh
+
+SOLAR RESOURCE
+Peak sun hours (annual avg): 4.64 h/day
+Peak sun hours (worst month): 4.22 h/day (Jun)
+Performance ratio         : 68.8% (cell 59.3 °C)
+Losses                    : temperature 86.3%, soiling 95%, wiring 98%, inverter 95%, misc 98%, battery 92%
+
+PV ARRAY
+Required array            : 811.1 W
+Panels                    : 2 × 550 W = 1.1 kW
+Expected daily yield      : 3.513 kWh (135.6% of load)
+
+BATTERY
+Chemistry                 : LiFePO4 (lithium iron phosphate)
+Autonomy target           : 2 day(s)
+Usable energy             : 5.18 kWh
+Nominal capacity          : 6.417 kWh (267.4 Ah @ 24 V)
+Depth of discharge        : 80%
+
+CHARGE CONTROLLER
+Type                      : MPPT — Array Vmp is well above battery voltage (or array > 200 W): MPPT harvests the extra voltage.
+Required current          : 35 A (array Isc 28 A × 1.25)
+Recommended rating        : ≥ 35 A, max input 62 V
+
+INVERTER
+Continuous                : 400 W (peak × 1.25)
+Surge                     : 960 W
+
+CABLE (array → controller)
+Recommended size          : 16 mm² — drop 2.49% over 10 m @ 28 A
+
+ESTIMATED COST (example prices — NOT live market prices)
+  Panel surya — Mono 550 Wp × 2: Rp5.500.000
+  Baterai — LiFePO4 25.6 V 100 Ah × 3: Rp21.000.000
+  Charge controller — MPPT 40 A (12/24/48 V, 150 V max): Rp1.800.000
+  Inverter — Pure sine 500 W (surge 1000 W): Rp900.000
+Balance of system (15%)   : Rp4.380.000
+TOTAL (estimate)          : Rp33.580.000
+Cost per Wp               : Rp30.527/Wp
+
+----------------------------------------------------------------
